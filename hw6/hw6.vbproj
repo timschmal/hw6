@@ -85,12 +85,20 @@
     <Content Include="App_Data\Books_log.ldf">
       <DependentUpon>Books.mdf</DependentUpon>
     </Content>
+    <Content Include="HW2\hawks.jpg" />
+    <Content Include="HW2\index.html" />
+    <Content Include="HW2\mountain.jpg" />
+    <Content Include="HW2\print.css" />
+    <Content Include="HW2\resume.html" />
+    <Content Include="HW2\schmaljohnstyles.css" />
+    <Content Include="logo\book.jpg" />
     <Content Include="tim.css" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
-    <Content Include="admin\default.aspx" />
     <Content Include="login\default.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="admin\default.aspx" />
+    <Content Include="admin\details.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="master.Master.designer.vb">
@@ -126,13 +134,6 @@
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="admin\default.aspx.designer.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="admin\default.aspx.vb">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="login\default.aspx.designer.vb">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
@@ -145,6 +146,20 @@
     </Compile>
     <Compile Include="contact.aspx.vb">
       <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\details.aspx.designer.vb">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\details.aspx.vb">
+      <DependentUpon>details.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
@@ -174,8 +189,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="Web.sitemap" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

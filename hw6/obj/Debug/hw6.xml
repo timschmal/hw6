@@ -6,15 +6,23 @@ hw6
 </name>
 </assembly>
 <members>
-<member name="F:hw6.WebForm3.Login1">
+<member name="F:hw6.WebForm5.DetailsView1">
 	<summary>
-Login1 control.
+DetailsView1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:hw6.WebForm2.GridView1">
+</member><member name="F:hw6.WebForm5.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:hw6.WebForm1.GridView1">
 	<summary>
 GridView1 control.
 </summary>
@@ -22,7 +30,7 @@ GridView1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:hw6.WebForm2.SqlDataSource1">
+</member><member name="F:hw6.WebForm1.SqlDataSource1">
 	<summary>
 SqlDataSource1 control.
 </summary>
@@ -46,9 +54,25 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:hw6.master.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:hw6.master.Menu1">
 	<summary>
 Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:hw6.master.LoginStatus1">
+	<summary>
+LoginStatus1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -62,9 +86,41 @@ SiteMapDataSource1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:hw6.master.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:hw6.master.ContentPlaceHolder1">
 	<summary>
 ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:hw6.WebForm2.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:hw6.WebForm2.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:hw6.WebForm3.Login1">
+	<summary>
+Login1 control.
 </summary>
 	<remarks>
 Auto-generated field.

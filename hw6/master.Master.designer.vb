@@ -32,6 +32,15 @@ Partial Public Class master
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Image1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
     '''Menu1 control.
     '''</summary>
     '''<remarks>
@@ -41,6 +50,15 @@ Partial Public Class master
     Protected WithEvents Menu1 As Global.System.Web.UI.WebControls.Menu
 
     '''<summary>
+    '''LoginStatus1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LoginStatus1 As Global.System.Web.UI.WebControls.LoginStatus
+
+    '''<summary>
     '''SiteMapDataSource1 control.
     '''</summary>
     '''<remarks>
@@ -48,6 +66,15 @@ Partial Public Class master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents SiteMapDataSource1 As Global.System.Web.UI.WebControls.SiteMapDataSource
+
+    '''<summary>
+    '''Label1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''ContentPlaceHolder1 control.

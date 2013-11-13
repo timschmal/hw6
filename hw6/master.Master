@@ -8,11 +8,12 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder> 
     <link rel="stylesheet" type="text/css" href="./tim.css"/>
-</head>
+    </head>
 <body>
     <form id="form1" runat="server">
     <div id="container">
         <div id="header">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/logo/book.jpg" Width="120px" Height="58px" BorderStyle="Solid" ImageAlign="Right" />
             <h1>Books Database</h1>
         </div>
         <div id="menu">
@@ -26,15 +27,19 @@
                 <StaticSelectedStyle BackColor="#507CD1" />
 
             </asp:Menu>
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+            
         </div>
         <div id="main">
-
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
        
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
           </div>
+        </div>                      
+
            </form>
 </body>
 </html>
