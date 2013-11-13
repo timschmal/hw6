@@ -6,3 +6,11 @@ C:\Users\tschmaljohn\Desktop\hw6\hw6\obj\Debug\hw6.vbproj.GenerateResource.Cache
 C:\Users\tschmaljohn\Desktop\hw6\hw6\obj\Debug\hw6.dll
 C:\Users\tschmaljohn\Desktop\hw6\hw6\obj\Debug\hw6.xml
 C:\Users\tschmaljohn\Desktop\hw6\hw6\obj\Debug\hw6.pdb
+C:\Users\tschmalj\Desktop\hw6\hw6\bin\hw6.dll
+C:\Users\tschmalj\Desktop\hw6\hw6\bin\hw6.pdb
+C:\Users\tschmalj\Desktop\hw6\hw6\bin\hw6.xml
+C:\Users\tschmalj\Desktop\hw6\hw6\obj\Debug\hw6.Resources.resources
+C:\Users\tschmalj\Desktop\hw6\hw6\obj\Debug\hw6.vbproj.GenerateResource.Cache
+C:\Users\tschmalj\Desktop\hw6\hw6\obj\Debug\hw6.dll
+C:\Users\tschmalj\Desktop\hw6\hw6\obj\Debug\hw6.xml
+C:\Users\tschmalj\Desktop\hw6\hw6\obj\Debug\hw6.pdb

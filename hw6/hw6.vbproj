@@ -85,24 +85,20 @@
     <Content Include="App_Data\Books_log.ldf">
       <DependentUpon>Books.mdf</DependentUpon>
     </Content>
-    <Content Include="detailsview.aspx" />
-    <Content Include="gridview.aspx" />
+    <Content Include="tim.css" />
     <Content Include="Web.config" />
+    <Content Include="default.aspx" />
+    <Content Include="admin\default.aspx" />
+    <Content Include="login\default.aspx" />
+    <Content Include="contact.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="detailsview.aspx.designer.vb">
-      <DependentUpon>detailsview.aspx</DependentUpon>
+    <Compile Include="master.Master.designer.vb">
+      <DependentUpon>master.Master</DependentUpon>
     </Compile>
-    <Compile Include="detailsview.aspx.vb">
-      <DependentUpon>detailsview.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="gridview.aspx.designer.vb">
-      <DependentUpon>gridview.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="gridview.aspx.vb">
-      <DependentUpon>gridview.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+    <Compile Include="master.Master.vb">
+      <DependentUpon>master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -123,6 +119,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -133,6 +157,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\Web.config" />
+    <Content Include="master.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -148,6 +174,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
